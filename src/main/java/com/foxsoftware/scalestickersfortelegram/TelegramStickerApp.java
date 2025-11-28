@@ -89,9 +89,9 @@ public class TelegramStickerApp implements CommandLineRunner {
         double seconds = millis / 1000.0;
 
         log.info("==========================================");
-        log.info("🎉 全部完成！");
-        log.info("⏱️ 耗时: {} 秒", String.format("%.2f", seconds));
-        log.info("🚀 平均速度: {} 张/秒", String.format("%.2f", files.size() / seconds));
+        log.info("全部完成！");
+        log.info("耗时: {} 秒", String.format("%.2f", seconds));
+        log.info("平均速度: {} 张/秒", String.format("%.2f", files.size() / seconds));
         log.info("==========================================");
     }
 

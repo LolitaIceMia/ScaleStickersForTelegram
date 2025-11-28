@@ -46,8 +46,6 @@ public class ImageProcessor {
             File destFile = outputDir.resolve(fileName).toFile();
             ImageIO.write(processed, "png", destFile);
 
-            // 既然是高性能主机，日志可以只在 Debug 模式开，或者每隔一定数量打印，避免 IO 拖慢 CPU
-            // 这里为了爽，我们保留日志，但使用了 logback 异步输出（Spring Boot 默认优化）
             log.info("✅ 处理完成: {}", fileName);
 
         } catch (Exception e) {

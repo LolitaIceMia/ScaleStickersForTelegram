@@ -1,7 +1,7 @@
 fox:
   sticker:
-    input-path: "C:/TelegramStickers/Input"   # 改这里
-    output-path: "C:/TelegramStickers/Output" # 改这里
+    input-path: "C:/Users/72409/OneDrive/Desktop/狐瓜西/images_png"   # 改这里
+    output-path: "C:/Users/72409/OneDrive/Desktop/狐瓜西/test" # 改这里
     # 目标尺寸
     width: 512
     height: 512
