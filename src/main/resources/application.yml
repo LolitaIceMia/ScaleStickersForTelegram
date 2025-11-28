@@ -1,0 +1,14 @@
+fox:
+  sticker:
+    input-path: "C:/TelegramStickers/Input"   # 改这里
+    output-path: "C:/TelegramStickers/Output" # 改这里
+    # 目标尺寸
+    width: 512
+    height: 512
+    # 警告：除非你有14900K以及64G内存，请勿设置过高的并发。
+    parallelism: 128
+
+logging:
+  level:
+    root: INFO
+    com.foxsoftware: INFO
